@@ -6,24 +6,24 @@
  */
 int main(void)
 {
-	int a;
-	int b;
-	int c;
+	int i;
+	int n;
+	int j;
 
-	for (a = 48; a < 58; a++)
+	for (i = 48; i < 58; i++)
 	{
-		for (b = 48; b < 58; b++)
+		for (n = 48; n < 58; n++)
 		{
-			if (b > a)
+			if (n > i)
 			{
-				for (c = 48; c < 58; c++)
+				for (j = 48; j < 58; j++)
 				{
-					if (c > b)
+					if (j > n)
 					{
-					putchar(c);
-					putchar(b);
-					putchar(c);
-					if (a == 55 && b == 56 && c == 57)
+					putchar(i);
+					putchar(n);
+					putchar(j);
+					if (i == 55 && n == 56 && j == 57)
 					{
 						break;
 					}
