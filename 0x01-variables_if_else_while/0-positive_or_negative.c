@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there */
+
 /**
  * main - Entry point
  * Description - Prints if random generated number is positive, zero or negative
