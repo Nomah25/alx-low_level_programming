@@ -4,7 +4,7 @@
  * print_triangle - Entry point
  * Description: Prints diagonals
  * @size: size of the triangle
- * Return: Always 0 (Success)
+ * Return: void
  */
 
 void print_triangle(int size)
@@ -19,7 +19,7 @@ void print_triangle(int size)
 	{
 		for (a = 1; a <= size; a++)
 		{
-			for (c = size - a; c >= 1; c --)
+			for (c = size - a; c >= 1; c--)
 			{
 				_putchar(' ');
 			}
