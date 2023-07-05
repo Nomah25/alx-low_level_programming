@@ -3,12 +3,12 @@
 
 /**
  * main - check the code
- *
  * Return: Always 0.
  */
 int main(void)
 {
     int r;
+    int wildcmp(const char* str1, const char* str2);
 
     r = wildcmp("main.c", "*.c");
     printf("%d\n", r);
